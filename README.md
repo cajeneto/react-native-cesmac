@@ -1,50 +1,61 @@
-# Welcome to your Expo app 👋
+SpendWise 💸
+Projeto de aplicativo para controle de finanças pessoais, desenvolvido com React Native e Expo. Este trabalho está sendo criado como parte das atividades acadêmicas do 7º período do curso de Sistemas de Informação do Centro Universitário CESMAC, em Maceió-AL.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+📝 Índice
+Sobre o Projeto
 
-## Get started
+✨ Funcionalidades
 
-1. Install dependencies
+🛠️ Tecnologias Utilizadas
 
-   ```bash
-   npm install
-   ```
+🚀 Como Executar o Projeto
 
-2. Start the app
+📂 Estrutura de Pastas
 
-   ```bash
-   npx expo start
-   ```
+👨‍💻 Autor
 
-In the output, you'll find options to open the app in a
+📖 Sobre o Projeto
+O SpendWise nasceu da necessidade de aplicar os conhecimentos de desenvolvimento mobile em um contexto prático e relevante. O objetivo é criar uma ferramenta intuitiva que auxilie os usuários a gerenciar suas despesas diárias, categorizar gastos e ter uma visão clara da sua saúde financeira, tudo na palma da mão.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+✨ Funcionalidades
+[x] Cadastro de Despesas: Registro rápido de receitas e despesas.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+[ ] Categorização: Classifique seus gastos (Alimentação, Transporte, Lazer, etc.).
 
-## Get a fresh project
+[ ] Dashboard Visual: Gráficos e relatórios para uma análise rápida das finanças.
 
-When you're ready, run:
+[ ] Histórico de Transações: Visualize e filtre todos os seus lançamentos.
 
-```bash
-npm run reset-project
-```
+[ ] Definição de Metas: Crie metas de economia e acompanhe seu progresso.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+🛠️ Tecnologias Utilizadas
+Este projeto foi construído utilizando as seguintes tecnologias:
 
-## Learn more
+React Native: Framework para desenvolvimento de aplicações móveis multiplataforma.
 
-To learn more about developing your project with Expo, look at the following resources:
+Expo: Plataforma e conjunto de ferramentas para facilitar o desenvolvimento com React Native.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Expo Router: Sistema de rotas baseado em arquivos para navegação entre telas.
 
-## Join the community
+TypeScript: Superset do JavaScript que adiciona tipagem estática ao código.
 
-Join our community of developers creating universal apps.
+🚀 Como Executar o Projeto
+Para rodar este projeto localmente, siga os passos abaixo. Você vai precisar ter o Node.js, o Git e o app Expo Go (opcional) instalados.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Bash
+
+# 1. Clone o repositório
+git clone https://github.com/cajeneto/react-native-cesmac.git
+
+# 2. Acesse a pasta do projeto
+cd react-native-cesmac
+
+# 3. Instale as dependências
+npm install
+
+# 4. Inicie o servidor de desenvolvimento
+npx expo start
+Após executar npx expo start, um QR Code será exibido no terminal. Escaneie-o com o app Expo Go no seu celular ou utilize as opções para abrir em um emulador Android/iOS.
+
+
+
