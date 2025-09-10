@@ -1,29 +1,23 @@
-import { DarkTheme, DefaultTheme, ThemeProvider } from '@react-navigation/native';
-import { useFonts } from 'expo-font';
-import { Stack } from 'expo-router';
-import { StatusBar } from 'expo-status-bar';
-import 'react-native-reanimated';
+import 'react-native-gesture-handler';
+import { Slot } from 'expo-router';
+import { SafeAreaView, StyleSheet } from 'react-native';
 
-import { useColorScheme } from '@/hooks/useColorScheme';
-
+// Este é o componente de Layout Raiz.
+// Ele envolve todas as suas telas.
 export default function RootLayout() {
-  const colorScheme = useColorScheme();
-  const [loaded] = useFonts({
-    SpaceMono: require('../assets/fonts/SpaceMono-Regular.ttf'),
-  });
+  // A importação 'react-native-gesture-handler' na primeira linha já resolve o problema de toque.
 
-  if (!loaded) {
-    // Async font loading only occurs in development.
-    return null;
-  }
-
+  // O componente <Slot /> do Expo Router renderiza a tela atual.
+  // Neste caso, ele vai renderizar o seu 'app/index.tsx'.
   return (
-    <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
-      <Stack>
-        <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
-        <Stack.Screen name="+not-found" />
-      </Stack>
-      <StatusBar style="auto" />
-    </ThemeProvider>
+    <SafeAreaView style={styles.container}>
+      <Slot />
+    </SafeAreaView>
   );
 }
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+  },
+});
