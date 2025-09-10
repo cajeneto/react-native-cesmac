@@ -10,23 +10,22 @@ Sobre o Projeto
 
 🚀 Como Executar o Projeto
 
-📂 Estrutura de Pastas
-
 👨‍💻 Autor
 
 📖 Sobre o Projeto
 O SpendWise nasceu da necessidade de aplicar os conhecimentos de desenvolvimento mobile em um contexto prático e relevante. O objetivo é criar uma ferramenta intuitiva que auxilie os usuários a gerenciar suas despesas diárias, categorizar gastos e ter uma visão clara da sua saúde financeira, tudo na palma da mão.
 
 ✨ Funcionalidades
+
 [x] Cadastro de Despesas: Registro rápido de receitas e despesas.
 
-[ ] Categorização: Classifique seus gastos (Alimentação, Transporte, Lazer, etc.).
+[ ] Categorização: Classifique seus gastos (Alimentação, Transporte, Lazer, etc.). #Em andamento
 
-[ ] Dashboard Visual: Gráficos e relatórios para uma análise rápida das finanças.
+[ ] Dashboard Visual: Gráficos e relatórios para uma análise rápida das finanças. #Em andamento
 
-[ ] Histórico de Transações: Visualize e filtre todos os seus lançamentos.
+[ ] Histórico de Transações: Visualize e filtre todos os seus lançamentos. #Em andamento
 
-[ ] Definição de Metas: Crie metas de economia e acompanhe seu progresso.
+[ ] Definição de Metas: Crie metas de economia e acompanhe seu progresso. #Em andamento
 
 🛠️ Tecnologias Utilizadas
 Este projeto foi construído utilizando as seguintes tecnologias:
@@ -58,4 +57,7 @@ npx expo start
 Após executar npx expo start, um QR Code será exibido no terminal. Escaneie-o com o app Expo Go no seu celular ou utilize as opções para abrir em um emulador Android/iOS.
 
 
+👨‍💻 Autor
 
+Hostílio Neto
+Desenvolvedor React Native
